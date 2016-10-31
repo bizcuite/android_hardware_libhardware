@@ -124,7 +124,7 @@ typedef enum {
                                                  authentication has been performed.  Structure
                                                  defined in hw_auth_token_t in hw_auth_token.h. */
     KM_TAG_MAC_LENGTH = KM_UINT | 1003,       /* MAC or AEAD authentication tag length in bits. */
-
+    
     /* Tags used only for SOTER */
     /* Tags used only to check if the key is for SOTER */
     KM_TAG_SOTER_IS_FROM_SOTER = KM_BOOL | 11000,

@@ -530,8 +530,7 @@ struct keymaster1_device {
      */
     keymaster_error_t (*abort)(const struct keymaster1_device* dev,
                                keymaster_operation_handle_t operation_handle);
-
-    /**
+/**
      * Generates a pair of ATTK defined in SOTER. Save the private key into RPMB.
      * Note that the ATTK generated will never be touched outside the keymaster.
      *
